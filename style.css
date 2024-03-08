@@ -101,3 +101,20 @@ border-radius: 30px;
     color: #fff;
     margin-bottom: 5px;
 }
+/* For screens smaller than 600px */
+@media (max-width: 600px) {
+    .container {
+      padding: 0 5%;
+    }
+    .content h1 {
+      font-size: 48px;
+    }
+  }
+  
+  /* For screens between 600px and 900px */
+  @media (min-width: 600px) and (max-width: 900px) {
+    .content h1 {
+      font-size: 64px;
+    }
+  }
+  
